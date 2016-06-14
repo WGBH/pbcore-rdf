@@ -17,6 +17,7 @@ GEM
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
     pkg-config (1.1.7)
+    rake (10.4.2)
     rdf (2.0.1)
       hamster (~> 3.0)
       link_header (~> 0.0, >= 0.0.8)
@@ -60,9 +61,10 @@ PLATFORMS
 
 DEPENDENCIES
   nokogiri
+  rake
   rdf-rdfxml
   rdf-turtle
   rspec
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
