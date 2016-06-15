@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#" xmlns:pbcore="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:pbcorerdf="http://www.pbcore.org/pbcore/pbcore#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:foaf="xmlns.com/foaf/0.1/">
+  <rdf:Description rdf:about="http://americanarchive.org/catalog/1234">
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject"/>
+    <ebucore:identifier>1234</ebucore:identifier>
+    <ebucore:hasLocation>Minnesota</ebucore:hasLocation>
+  </rdf:Description>
+</rdf:RDF>
