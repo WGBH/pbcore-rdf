@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pbcoreDescriptionDocument xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html">
+    <pbcoreIdentifier source="http://americanarchiveinventory.org">1234</pbcoreIdentifier>
+    <pbcoreContributor>
+        <contributor affiliation='Marx Brothers'>Groucho</contributor>
+        <contributorRole>mustache and cigar</contributorRole>
+    </pbcoreContributor>
+</pbcoreDescriptionDocument>
