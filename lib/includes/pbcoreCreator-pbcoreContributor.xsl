@@ -12,6 +12,7 @@
         <ebucore:hasCreator>
             <rdf:Description>
                 <xsl:apply-templates select="*"/>
+                <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent"/>
             </rdf:Description>
         </ebucore:hasCreator>
     </xsl:template>
@@ -20,12 +21,12 @@
         <ebucore:hasContributor>
             <rdf:Description>
                 <xsl:apply-templates select="*"/>
+                <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent"/>
             </rdf:Description>
         </ebucore:hasContributor>
     </xsl:template>
     
     <xsl:template match="pbcore:creator|pbcore:contributor">
-        <xsl:attribute name="rdf:type">ebucore:Agent</xsl:attribute>
         <xsl:attribute name="ebucore:agentName"><xsl:value-of select="."/></xsl:attribute>
         <xsl:attribute name="ebucore:hasAffiliation"><xsl:value-of select="@affiliation"/></xsl:attribute>
     </xsl:template>

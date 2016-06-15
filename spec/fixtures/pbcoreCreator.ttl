@@ -3,7 +3,7 @@
 
 <http://americanarchive.org/catalog/1234> a ebucore:EditorialObject;
     ebucore:hasCreator [
-       a <ebucore:Agent>;
+       a ebucore:Agent;
        ebucore:agentName "Groucho";
        ebucore:hasAffiliation "Marx Brothers";
        ebucore:hasRole "mustache and cigar"

@@ -4,7 +4,9 @@
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject"/>
     <ebucore:identifier>1234</ebucore:identifier>
     <ebucore:hasContributor>
-      <rdf:Description rdf:type="ebucore:Agent" ebucore:agentName="Groucho" ebucore:hasAffiliation="Marx Brothers" ebucore:hasRole="mustache and cigar"/>
+      <rdf:Description ebucore:agentName="Groucho" ebucore:hasAffiliation="Marx Brothers" ebucore:hasRole="mustache and cigar">
+        <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent"/>
+      </rdf:Description>
     </ebucore:hasContributor>
   </rdf:Description>
 </rdf:RDF>
