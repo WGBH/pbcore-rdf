@@ -12,6 +12,7 @@
     
     <xsl:include href="lib/includes/pbcoreDescriptionDocument.xsl"/>
     <xsl:include href="lib/includes/pbcoreIdentifier.xsl"/>
+    <xsl:include href="lib/includes/pbcoreCreator-pbcoreContributor.xsl"/>
     
     <xsl:template match="*">
         <xsl:message terminate="no">WARNING: Unmatched element: <xsl:value-of select="name(..)"/>/<xsl:value-of select="name()"/></xsl:message>
