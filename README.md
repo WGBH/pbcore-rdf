@@ -2,4 +2,4 @@
 
 [![Build Status](https://travis-ci.org/WGBH/pbcore-rdf.svg?branch=first)](https://travis-ci.org/WGBH/pbcore-rdf)
 
-A fresh start at PBCore xml -> rdf mapping
+PBCore xml -> rdf mapping, targetting only the normalized AAPB pbcore. Anything else is quixotic.
