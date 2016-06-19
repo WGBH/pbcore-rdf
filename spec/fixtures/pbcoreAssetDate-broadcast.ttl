@@ -1,0 +1,6 @@
+@prefix ebucore: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://americanarchive.org/catalog/1234> a ebucore:EditorialObject;
+    ebucore:dateBroadcast "2001-01-01";
+    ebucore:identifier "1234" .
